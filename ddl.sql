@@ -12,12 +12,24 @@
 -- Foreign Key - Sets up the relationship between 2 tables 
 -- Insert data into parent data first, delete data from child table first
 
+-- Dropping a table named 'COURSES'
 DROP TABLE COURSES;
 
+-- Creating a table names 'COURSES'
 CREATE TABLE COURSES (
 courseCode CHAR(6) PRIMARY KEY,
 courseName VARCHAR (15),
-courseDesc VARCHAR (30));
+courseDesc VARCHAR (30)
+);
+
+-- Altering the 'COURSES' table to add a UNIQUE constraint to the 'courseName' attribute.
+ALTER TABLE COURSES
+ADD CONSTRAINT courseName_unq
+UNIQUE(courseName);
+
+-- Altering the 'COURSES' table to add a NOT-NULL constraint to the 'courseName' attribute.
+ALTER TABLE COURSES
+MODIFY (courseName VARCHAR2(100) NOT NULL);
 
 SELECT COUNT(*)
 FROM offices
