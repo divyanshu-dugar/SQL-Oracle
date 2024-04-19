@@ -31,6 +31,10 @@ UNIQUE(courseName);
 ALTER TABLE COURSES
 MODIFY (courseName VARCHAR2(100) NOT NULL);
 
+-- Altering the 'COURSES' table to add an attribute to it
+ALTER TABLE COURSES
+ADD termsOffered VARCHAR2(20) NOT NULL;
+
 SELECT COUNT(*)
 FROM offices
 WHERE LOWER(city) = 'paris';
