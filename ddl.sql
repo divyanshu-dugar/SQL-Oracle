@@ -1,20 +1,16 @@
-/* DDL - Data Definiton Language - Is used to define or update database Objects (such as tables)
-   (CREATE, ALTER, DROP) */
+/* 
+   DDL - Data Definiton Language 
+   It is used to define or update database Objects (such as tables)
+   (CREATE, ALTER, DROP) 
+*/
    
-/* 5 Constraints - PK, FK, NOT NULL, UNIQUE, VALIDATION (CHECK) 
+-- 5 Constraints - PK, FK, NOT NULL, UNIQUE, VALIDATION (CHECK) 
 
-/* Check for data types in Oracle site or w3schools */
+-- Check for data types in Oracle site or w3schools 
+-- https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Data-Types.html
 
-/* Lab 04 - 2 attributes together as primary key */
-
-/* Foreign Key - Set up the relationship between 2 tables 
-   Insert data into parent data first, delete data from child table first
-*/
-
-/*
-1. Table name should be unique 
-2. 
-*/
+-- Foreign Key - Sets up the relationship between 2 tables 
+-- Insert data into parent data first, delete data from child table first
 
 DROP TABLE COURSES;
 
