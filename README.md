@@ -7,3 +7,5 @@ Common DDL commands include: <br>
 a. CREATE: Used to create database objects like tables, indexes, views, etc. <br>
 b. ALTER: Modifies the structure of existing database objects. <br>
 c. DROP: Deletes database objects. <br>
+<hr>
+Data Manipulation Language (DML) Commands: <br>
