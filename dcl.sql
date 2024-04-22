@@ -1,5 +1,8 @@
 /* 
-DCL - Data Control Language
+DCL - Data Control Language - DCL commands are used to control access to data within a database.
+
+REVOKE: This command removes previously granted privileges from users or roles.
+GRANT: This command gives specific privileges to users or roles.
 */
 
 REVOKE ALL PRIVILEGES ON newemployees FROM PUBLIC;
