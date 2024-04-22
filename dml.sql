@@ -1,7 +1,9 @@
-/* DML - Data Manipulation Language - Commands to work with data stored in the
-         database. */
+/* 
+DML - Data Manipulation Language - Commands to work with data stored in the database. 
+*/
          
-/* DML Statements:
+/* 
+DML Statements:
    C - Create (INSERT)
    R - Read (SELECT)
    U - UPDATE
