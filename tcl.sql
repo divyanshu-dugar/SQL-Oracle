@@ -1,8 +1,9 @@
 /*
 TCL - Transaction Control Language
 
-What are Transactions?A transaction is a logical, atomic unit of work that contains one or moreSQL statements. 
-A transaction groups SQL statements so that they areeither all committed, which means they are applied to the 
+What are Transactions?
+i. A transaction is a logical, atomic unit of work that contains one or more SQL statements. 
+ii. A transaction groups SQL statements so that they are either all committed, which means they are applied to the 
 database, or all rolled back, which means they are undone from the database.
 */
 
@@ -30,3 +31,10 @@ ROLLBACK TO A; -- This will undo everything after the savepoint A - hence the in
 -- This time only employee 9999 will get displayed
 SELECT * FROM 
 employees;
+
+-- Insert the employee '10000' once again (it was undone because of the rollback in line number - 29)
+
+COMMIT; -- This will commit everthing and start a new transaction
+
+ROLLBACK TO A; -- This will generate an error because the COMMIT in line number - 37 committed everything (made all the changes permanent)
+-- , and started a new transaction, for this new transaction we do not have any Savepoint A.
