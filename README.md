@@ -4,8 +4,8 @@ This Repository has SQL commands for ORACLE RELATIONAL DATABASE MANAGEMENT SYSTE
 DDL commands are used to define, modify, and delete the structure of database objects like tables, indexes, and views. <br>
 <br>
 Common DDL commands include: <br>
-&nbsp;a. <b>CREATE:</b> Used to create database objects like tables, indexes, views, etc. <br>
-&nbsp;b. <b>ALTER:</b> Modifies the structure of existing database objects. <br>
-&nbsp;c. <b>DROP:</b> Deletes database objects. <br>
+&nbsp;&nbsp;&nbsp;a. <b>CREATE:</b> Used to create database objects like tables, indexes, views, etc. <br>
+&nbsp;&nbsp;&nbsp;b. <b>ALTER:</b> Modifies the structure of existing database objects. <br>
+&nbsp;&nbsp;&nbsp;c. <b>DROP:</b> Deletes database objects. <br>
 <hr>
 <h2>Data Manipulation Language (DML) Commands: </h2><br>
