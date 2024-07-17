@@ -1,7 +1,7 @@
 # SQL - ORACLE
 This Repository has SQL commands for ORACLE RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS) segregated into <h2>[DDL, DML, DCL and TCL]</h2>
 <h2> DDL - Data Definition Language Commands: </h2>
-DDL commands are used to define, modify, and delete the structure of database objects like tables, indexes, and views. <br>
+DDL commands are used to <u>define, modify, and delete</u> the structure of database objects like tables, indexes, and views. <br>
 <br>
 <b>Common DDL commands include: </b><br>
 &nbsp;&nbsp;&nbsp;a. <b>CREATE:</b> Used to create database objects like tables, indexes, views, etc. <br>
