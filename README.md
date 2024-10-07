@@ -21,16 +21,16 @@ DCL commands are used to control access to data and database objects by managing
 
 <b>Common DCL commands include:</b><br><br>
 &nbsp;&nbsp;&nbsp;a. <b>GRANT:</b> Provides specific privileges to users or roles to perform actions on database objects.<br>
-&nbsp;&nbsp;&nbsp;a. <b>REVOKE:</b> Removes or revokes previously granted privileges from users or roles.<br>
+&nbsp;&nbsp;&nbsp;b. <b>REVOKE:</b> Removes or revokes previously granted privileges from users or roles.<br>
 <hr>
 <h2>TCL - Transaction Control Language Commands: </h2><br>
 TCL commands manage transactions in the database, ensuring that a set of operations either completes successfully or is rolled back to preserve data integrity.
 
 <b>Common TCL commands include:</b><br>
 &nbsp;&nbsp;&nbsp;a. <b>COMMIT:</b> Saves all the changes made by the current transaction permanently to the database.<br>
-&nbsp;&nbsp;&nbsp;a. <b>ROLLBACK:</b> Undoes the changes made by the current transaction, reverting the data to the last committed state.<br>
-&nbsp;&nbsp;&nbsp;a. <b>SAVEPOINT:</b> Sets a point within a transaction to which you can roll back later without affecting the entire transaction.<br>
-&nbsp;&nbsp;&nbsp;a. <b>SET TRANSACTION:</b> Defines properties for a new transaction (such as its isolation level).<br>
+&nbsp;&nbsp;&nbsp;b. <b>ROLLBACK:</b> Undoes the changes made by the current transaction, reverting the data to the last committed state.<br>
+&nbsp;&nbsp;&nbsp;c. <b>SAVEPOINT:</b> Sets a point within a transaction to which you can roll back later without affecting the entire transaction.<br>
+&nbsp;&nbsp;&nbsp;d. <b>SET TRANSACTION:</b> Defines properties for a new transaction (such as its isolation level).<br>
 
 DCL controls who has permission to perform actions on database objects.
 TCL controls the transactions that modify the data within the database.
