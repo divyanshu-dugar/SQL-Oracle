@@ -31,6 +31,6 @@ TCL commands manage transactions in the database, ensuring that a set of operati
 &nbsp;&nbsp;&nbsp;b. <b>ROLLBACK:</b> Undoes the changes made by the current transaction, reverting the data to the last committed state.<br>
 &nbsp;&nbsp;&nbsp;c. <b>SAVEPOINT:</b> Sets a point within a transaction to which you can roll back later without affecting the entire transaction.<br>
 &nbsp;&nbsp;&nbsp;d. <b>SET TRANSACTION:</b> Defines properties for a new transaction (such as its isolation level).<br>
-
+<hr>
 DCL controls who has permission to perform actions on database objects.
 TCL controls the transactions that modify the data within the database.
