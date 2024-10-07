@@ -16,3 +16,6 @@ DML commands are used to manage data within the database objects (e.g., tables).
 &nbsp;&nbsp;&nbsp;c. <b>U - UPDATE:</b> Modifies existing data within a table.<br>
 &nbsp;&nbsp;&nbsp;d. <b>D - DELETE:</b> Removes existing rows of data from a table.<br>
 <hr>
+
+DCL controls who has permission to perform actions on database objects.
+TCL controls the transactions that modify the data within the database.
